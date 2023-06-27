@@ -1,0 +1,6 @@
+# authenticate(Basic)
+AuthType Basic
+AuthName "Please enter your ID and password"
+AuthBasicProvider file
+AuthUserFile /usr/local/apache2/conf/.htpasswd
+AuthGroupFile /dev/null
